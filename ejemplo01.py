@@ -1,13 +1,13 @@
-name = input("¿Cómo te llamas? ")
-gender = input("¿Cuál es tu sexo (M o H)? ")
-if gender == "M":
-    if name.lower() < "m":
-        group = "A"
+nombre = input("¿Cómo te llamas? ")
+genero = input("¿Cuál es tu sexo (M o H)? ")
+if genero == "M":
+    if nombre.lower() < "m":
+        grupo = "A"
     else:
-        group = "B"
+        grupo = "B"
 else:
-    if name.lower() > "n":
-        group = "A"
+    if nombre.lower() > "n":
+        grupo = "A"
     else:
-        group = "B"
-print("Tu grupo es " + group)
+        grupo = "B"
+print("Tu grupo es " + grupo)
